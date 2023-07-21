@@ -1,0 +1,32 @@
+.container{
+    font-weight: 800;
+    align-items: center;
+    display: flex;
+    max-width: 1400px;
+    margin: auto;
+}
+
+header{
+    background-color: #194da0;
+    
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+header a:hover{
+    color: rgb(0, 136, 89);
+    transition-duration: .5s;
+}
+
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: white;
+    font-size: 1.6em;
+}
