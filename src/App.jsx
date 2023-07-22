@@ -12,7 +12,9 @@ const App = () => {
       <Navbar/>
       <Portada/>
       <Card/>
-      
+      <Card/>
+      <Card/>
+      <Card/>
     </div>
     );
 }
