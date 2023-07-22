@@ -7,6 +7,7 @@ const Navbar = () => {
     <div class="container">
     <p class="logo">TuUNSTA</p>
     <nav>
+        <a href="">Usá TuUNSTA</a>
         <a href="">Bancos asociados</a>
         <a href="">Cripto</a>
         <a href="">Promociones</a>
@@ -16,5 +17,4 @@ const Navbar = () => {
 </header>
   );
 };
-
 export default Navbar;
