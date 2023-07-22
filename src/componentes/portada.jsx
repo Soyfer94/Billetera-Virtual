@@ -1,19 +1,23 @@
 import React from 'react';
-import heroWeb from '../assets/img/heroWeb.png';
+import imagen from '../assets/img/heroWeb.png'
 
-const portada = () => {
+const Portada = () => {
   return (
+    //el primer div contiene a la img al texto y al button.
     <div>
-      <h2>La billetera de los bancos que conecta tu dinero con todo lo que querés</h2>
-      <p>Tus bancos, cuentas y tarjetas 100% digitales.</p>
-      <img
-        src={heroWeb}
-        alt="portada"
-        
-      />
-      
+        <div class="card-body"> 
+            <h2>La billetera de los bancos que conecta tu dinero con todo lo que querés</h2>
+            <p>Tus bancos, cuentas y tarjetas 100% digitales.</p>
+                
+                <div>
+                   <button type="button" href="#" class="btn-primary">Empezá a usar TuUNSTA</button> 
+                </div>    
+        </div>
+        <div>
+             <img src= {imagen} alt="" style={{ maxWidth: '300px' }}
+            />
+        </div>
     </div>
   );
 };
-
-export default portada;
+export default Portada;

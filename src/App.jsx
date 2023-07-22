@@ -1,6 +1,7 @@
 import './App.css'
 import Navbar from './componentes/barra';
-import Eventos from './componentes/contador';
+import Card from './componentes/card';
+import Portada from './componentes/portada';
 
 
 
@@ -9,10 +10,9 @@ const App = () => {
     <div className="App">
       
       <Navbar/>
-      <Eventos/>
+      <Portada/>
+      <Card/>
       
-
-      <h2>Hola REACT</h2>
     </div>
     );
 }
