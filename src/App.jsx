@@ -1,8 +1,8 @@
 import './App.css'
 import Navbar from './componentes/barra';
-import Card from './componentes/card';
 import Portada from './componentes/portada';
-
+import Cards from './componentes/cards';
+import './App.css'
 
 
 const App = () => {
@@ -11,8 +11,7 @@ const App = () => {
       
       <Navbar/>
       <Portada/>
-      <Card/>
-      
+      <Cards/>
     </div>
     );
 }
