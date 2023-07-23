@@ -21,7 +21,7 @@ export default function FormularioControlado(){
         e.preventDefault();
         console.log(form)
         
-        alert("El formulario se ha enviado")
+        alert("El formulario fue enviado")
 
     }
 
