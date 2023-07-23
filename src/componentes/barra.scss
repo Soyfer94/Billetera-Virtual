@@ -1,10 +1,12 @@
 .container{
     font-weight: 800;
+    font-size: 1.25em;
     align-items: center;
     display: flex;
-    max-width: 1400px;
+    max-width: 1800px;
     margin: auto;
 }
+
 
 header{
     background-color: #194da0;
@@ -12,11 +14,13 @@ header{
 }
 
 header a{
-    padding: 5px 12px;
+    padding: 15px 12px;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: normal;
     color: white;
+
 }
+
 header a:hover{
     color:  #f39c12 ;
     transition-duration: .5s;
@@ -27,6 +31,8 @@ header .logo{
     margin: 0;
     padding: 25px 30px;
     font-weight: bold;
-    color: white;
-    font-size: 1.6em;
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+    font-family:Impact;
+    
 }
