@@ -32,23 +32,23 @@ export default function FormularioControlado(){
             <label htmlFor="nombre">Nombre</label>
             <input type="text" id="nombre"  onChange={ handleChange } />
             <p>Elije tu cripto</p>
-            <input type="radio" id="BTC" name="sabor" value="BTC" onChange={handleChange} defaultChecked/>
+            <input type="radio" id="BTC" name="monedas" value="BTC" onChange={handleChange} defaultChecked/>
             <label htmlFor="BTC">Bitcoin</label>
 
-            <input type="radio" id="ETH" name="sabor" value="ETH" onChange={handleChange} />
+            <input type="radio" id="ETH" name="monedas" value="ETH" onChange={handleChange} />
             <label htmlFor="react">Etherium</label>
 
-            <input type="radio" id="USDT" name="sabor" value="USDT" onChange={handleChange} />
+            <input type="radio" id="USDT" name="monedas" value="USDT" onChange={handleChange} />
             <label htmlFor="USDT">USDT</label>
 
-            <input type="radio" id="ADA" name="sabor" value="ADA" onChange={handleChange} />
+            <input type="radio" id="ADA" name="monedas" value="ADA" onChange={handleChange} />
             <label htmlFor="ADA">ADA</label>
 
-            <input type="radio" id="LTC" name="sabor" value="LTC" onChange={handleChange} />
+            <input type="radio" id="LTC" name="monedas" value="LTC" onChange={handleChange} />
             <label htmlFor="LTC">Litecoin</label>
 
             <p>Elije tu cripto a comprar</p>
-            <select name="lenguaje" onChange={handleChange}  defaultValue="">
+            <select name="moneda" onChange={handleChange}  defaultValue="">
                 <option value="">---</option>+
                 <option value="BTC">Bitcoin</option>
                 <option value="ETH">Etherium</option>
