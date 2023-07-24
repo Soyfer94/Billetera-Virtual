@@ -5,7 +5,7 @@ const Crypto = () => {
   const [search, setSearch] = useState("");
   const [cryptos, setCryptos] = useState([]); // Definición de cryptos usando useState
 
-  const endpoint = 'https://api.coingecko.com/api/v3/coins/list';
+  const endpoint = 'https://api.coingecko.com/api/v3/search/trending';
 
   const showData = () => {
     axios.get(endpoint).then( (res) => {
@@ -21,12 +21,40 @@ useEffect(() => {
 const searcher = (e) => {
   setSearch(e.target.value)
 
-  const results = !search ? cryptos : cryptos.filter( (val)=> val.name.toLowerCase().includes(search.toLocaleLowerCase()) )
-
 };
 
+const results = !search ? cryptos : cryptos.filter( (val)=> val.name.toLowerCase().includes(search.toLocaleLowerCase()) )
 
-export default Crypto;
+return (
+    
+   <>
+    <input value={search}  onChange={searcher} type='text' placeholder='Search...' className='form-control' />
+
+    <table className='table table-dark table-hover mt-3'>
+    <thead>
+            <tr>
+                <th>Ranking</th>
+                <th>Name</th>
+                <th>Symbol</th>
+                <th>Price</th>
+                <th>Price 24h</th>
+            </tr>
+        </thead>
+
+        <tbody>
+          { results.map((result)=>(
+              <tr key={result.id}>
+                    <td> {result.item.market_cap_rank} </td>
+                    <td> {result.name} </td>
+              </tr>
+          ))}
+        </tbody>
+
+    </table>
+
+
+  </>
+
 /*
   useEffect(() => {
     showData();
@@ -77,3 +105,5 @@ export default Crypto;
 //  )
 //}
 
+  )}
+ export default Crypto;

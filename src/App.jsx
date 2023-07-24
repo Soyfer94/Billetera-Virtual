@@ -23,7 +23,7 @@ function App ()  {
       
       <Formulario/>
       <FormularioControlado/>
-      
+      <h1 className='text-center'>React - Crypto</h1>
       <Crypto/>
       
     </div>
