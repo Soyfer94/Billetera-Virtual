@@ -6,7 +6,7 @@ import FormularioControlado from './componentes/FormularioControlado';
 import Navbar from './componentes/barra';
 import Card from './componentes/card';
 import Portada from './componentes/portada';
-
+import Crypto from './componentes/Crypto';
 
 
 const App = () => {
@@ -19,11 +19,12 @@ const App = () => {
       <Card/>
       <Card/>
       <Card/>
+      
       <Formulario/>
       <FormularioControlado/>
       <Form/> "(no tocar)"
       <CrudApp/> "(no tocar)"
-      
+      <Crypto/>
       
     </div>
     );
