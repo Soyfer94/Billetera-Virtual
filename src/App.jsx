@@ -46,8 +46,9 @@ function App ()  {
       <Card/>
       <Formulario/>
       <FormularioControlado/>
-      <h1 className='text-center'>React - Crypto</h1>
-      <Crypto/>
+
+      <h4 className='text-center'>Busca la Crypto</h4>
+      
 
      <div className="container">
       <div className="row">
