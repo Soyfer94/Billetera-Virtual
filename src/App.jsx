@@ -1,15 +1,16 @@
 import './App.css'
-import Form from './componentes/CriptoForm';
-import CrudApp from './componentes/CrudApp';
+
+import Crypto from './componentes/Crypto';
+
 import Formulario from './componentes/Formulario';
 import FormularioControlado from './componentes/FormularioControlado';
 import Navbar from './componentes/barra';
 import Card from './componentes/card';
 import Portada from './componentes/portada';
-import Crypto from './componentes/Crypto';
 
 
-const App = () => {
+
+function App ()  {
     return (
     <div className="App">
       
@@ -22,8 +23,7 @@ const App = () => {
       
       <Formulario/>
       <FormularioControlado/>
-      <Form/> "(no tocar)"
-      <CrudApp/> "(no tocar)"
+      
       <Crypto/>
       
     </div>
@@ -31,3 +31,11 @@ const App = () => {
 }
 
 export default App; 
+
+/*
+import Form from './componentes/CriptoForm';
+import CrudApp from './componentes/CrudApp';
+
+<Form/> "(no tocar)"
+      <CrudApp/> "(no tocar)"
+      */

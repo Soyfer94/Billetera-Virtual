@@ -4,8 +4,8 @@ import './barra.scss';
 const Navbar = () => {
   return (
     <header>
-    <div class="container">
-    <p class="logo">TuUNSTA</p>
+    <div className="container">
+    <p className="logo">TuUNSTA</p>
     <nav>
         <a href="">Usá TuUNSTA</a>
         <a href="">Bancos asociados</a>

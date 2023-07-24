@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+/* import React, { useState, useEffect } from "react";
 
 
 const initialForm = {
@@ -58,3 +58,5 @@ const CrudForm = ({createData, updateData, dataToEdit, setDataToEdit}) =>{
 }
 
 export default CrudForm;
+
+*/

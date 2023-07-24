@@ -6,7 +6,7 @@ const Portada = () => {
   return (
     //el primer div contiene a la img al texto y al button.
     <div>
-        <div class="titulo"> 
+        <div className="titulo"> 
             <h2>La billetera de los bancos que conecta tu dinero con todo lo que querés</h2>
             <h3>Tus bancos, cuentas y tarjetas 100% digitales.</h3>
                 

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+/*import React, { useState, useEffect } from "react";
 import { Table, Button } from "react-bootstrap";
 
 const Form = () => {
@@ -108,3 +108,4 @@ const Form = () => {
 };
 
 export default Form;
+*/

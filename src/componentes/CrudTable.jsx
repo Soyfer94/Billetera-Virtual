@@ -1,4 +1,4 @@
-import React from "react";
+/*import React from "react";
 import CrudTableRow from "./CrudTableRow";
 
 const CrudTable = ({data, setDataToEdit, deleteData}) => {
@@ -22,3 +22,4 @@ const CrudTable = ({data, setDataToEdit, deleteData}) => {
 }
 
 export default CrudTable;
+*/

@@ -1,6 +1,6 @@
 //EJEMPLO BASICO
 
-import React,{Component} from 'react';
+/*import React,{Component} from 'react';
 
 export default class Eventos extends Component {
   constructor(){
@@ -26,6 +26,6 @@ export default class Eventos extends Component {
     )
   }
 }
-
+*/
 //ESTE ES UN EJEMPLO DE COMO DEBERIA QUEDAR UN 
 //EVENTO PARA QUE SE CARGUE EN App.jsx y se ejecute

@@ -1,4 +1,4 @@
-import React from "react";
+/*import React from "react";
 
 const CrudTableRow = ({row, setDataToEdit, deleteData }) => {
 let {name, lastname, id} = row
@@ -16,3 +16,4 @@ let {name, lastname, id} = row
 }
 
 export default CrudTableRow;
+*/

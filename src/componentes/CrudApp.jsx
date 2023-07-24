@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react";
+/*import React, {useEffect, useState} from "react";
 import CrudForm from "./CrudForm";
 import CrudTable from "./CrudTable";
 
@@ -55,3 +55,5 @@ const CrudApp = () => {
 }
 
 export default CrudApp;
+
+*/
