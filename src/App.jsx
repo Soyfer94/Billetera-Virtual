@@ -5,6 +5,9 @@ import Formulario from './componentes/Formulario';
 import FormularioControlado from './componentes/FormularioControlado';
 import Navbar from './componentes/barra';
 import Card from './componentes/card';
+import Card2 from './componentes/card2';
+import Card3 from './componentes/card3';
+import Card4 from './componentes/card4';
 import Portada from './componentes/portada';
 
 
@@ -15,11 +18,8 @@ const App = () => {
       
       <Navbar/>
       <Portada/>
-      <Card/>
-      <Card/>
-      <Card/>
-      <Card/>
       <Formulario/>
+      <Card/>
       <FormularioControlado/>
       <Form/> "(no tocar)"
       <CrudApp/> "(no tocar)"
