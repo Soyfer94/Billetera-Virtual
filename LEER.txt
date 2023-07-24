@@ -7,3 +7,6 @@ A continuacion agrega los elemento a instalar
 
 -Instalamos buustrap
 npm i bootstrap@5.3.0
+
+-Instalar axios
+npm i axios
