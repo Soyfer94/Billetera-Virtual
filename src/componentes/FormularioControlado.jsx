@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import formularioc from "./formularioc.scss"
 
 export default function FormularioControlado(){
     const [form, setForm] = useState({});
@@ -26,6 +27,13 @@ export default function FormularioControlado(){
     }
 
     return(
+
+
+
+
+
+
+    <div class="container">
         <>
         <h2 className="Form_1">Formulario cripto</h2>
         <form onSubmit={handleSubmit} >
@@ -63,5 +71,9 @@ export default function FormularioControlado(){
             <input type="submit" />
         </form>
         </>
+        <div class="gif">
+            <iframe width="620" height="620" src="https://www.gifss.com/economia/bitcoin/images/bitcoin-03.gif" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>    
     )
 }
