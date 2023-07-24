@@ -1,23 +1,36 @@
-import axios from 'axios'
-import React, { useState, useEffect } from 'react'
-
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
 
 const Crypto = () => {
-  // 1 - setear los hooks
-  const [ search, setSearch ] = useState("")  
-  const [ cryptos, setCryptos ] = useState( [] )
-  //2 - función para traer los datos
-  const endpoint = 'https://api.coingecko.com/api/v3/global' 
+  const [search, setSearch] = useState("");
+  const [cryptos, setCryptos] = useState([]); // Definición de cryptos usando useState
+
+  const endpoint = 'https://api.coingecko.com/api/v3/coins/list';
+
   const showData = () => {
     axios.get(endpoint).then( (res) => {
-        //console.log(res.data)
-        setCryptos(res.data)
-    })
-  }
-  //useEffect
-  useEffect( ()=> {
-    showData()
-  },[])
+      console.log(res.data);
+      setSearch(res.data)
+    });
+  };
+
+useEffect(() => {
+  showData();
+}, []);
+
+const searcher = (e) => {
+  setSearch(e.target.value)
+
+  const results = !search ? cryptos : cryptos.filter( (val)=> val.name.toLowerCase().includes(search.toLocaleLowerCase()) )
+
+};
+
+
+export default Crypto;
+/*
+  useEffect(() => {
+    showData();
+  }, []);
   //3 - función de búsqueda
   const searcher = (e) => {
       setSearch(e.target.value)
@@ -27,8 +40,10 @@ const Crypto = () => {
   const results = !search ? cryptos : cryptos.filter( (val)=> val.name.toLowerCase().includes(search.toLocaleLowerCase()) )
   //renderizamos la vista
   return (
+   <h3>VAMO a VE</h3>
+    /*
     <>
-    <input value={search} onChange={searcher} type='text' placeholder='Search...' className='form-control' />
+    
     <table className='table table-dark table-hover mt-3'>
         <thead>
             <tr>
@@ -58,6 +73,7 @@ const Crypto = () => {
         </tbody>
     </table>
     </>
-  )
-}
-export default Crypto
+    */
+//  )
+//}
+
