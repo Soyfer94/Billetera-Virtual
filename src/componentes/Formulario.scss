@@ -13,10 +13,8 @@
   margin-top: 70px
 }
 
-
-/* Estilos para el formulario */
 .form {
-    flex: 1; /* El formulario ocupará la otra mitad del ancho del contenedor */
+    flex:1; /* El formulario ocupará la otra mitad del ancho del contenedor */
     max-width: 400px;
     padding: 20px;
     border: 1px solid #ffffff;
@@ -30,6 +28,9 @@
     margin-bottom: 20px;
     color: #194da0;
     font-size: 30px;
+    font-size: 2em;
+    font-family:Impact;
+    font-weight: bold;
   }
   
   label {
@@ -52,11 +53,12 @@
     width: 100%;
     padding: 10px;
     color: #151313;
-    background-color: #007bff;
+    background-color: whitesmoke;
     border: none;
     border-radius: 4px;
     cursor: pointer;
   }
+
   
   button[type="submit"]:hover {
     background-color: #0056b3;

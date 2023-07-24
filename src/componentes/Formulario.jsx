@@ -21,12 +21,12 @@ export default function Formulario () {
             </div>
 
             <form onSubmit={handleSubmit} ref={formRef}>
-                <h4>Ingresar</h4>
-                <label htmlFor="email">Ingrese su mail</label>
+                <h4 className="tituloform">TuUNSTA</h4>
+                <label htmlFor="email">Correo electronico</label>
                 <input type="email" id="email" name="email" /> <br/>
-                <label htmlFor="password">Ingrese su contraseña</label>
+                <label htmlFor="password">Contraseña</label>
                 <input type="password" id="password" name="password" /> <br/>
-                <button type="submit">Enviar</button>
+                <button type="submit">Ingresar</button>
 
             </form>
         </div>
