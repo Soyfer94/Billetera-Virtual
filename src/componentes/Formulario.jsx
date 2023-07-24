@@ -1,4 +1,5 @@
 import React, {useRef} from "react";
+import Formuario from "./formulario.scss"
 
 export default function Formulario () {
     let formRef = useRef();
@@ -11,7 +12,7 @@ export default function Formulario () {
     }
     return(
         <form onSubmit={handleSubmit} ref={formRef}>
-            <h3>Ingresar</h3>
+            <h4>Ingresar</h4>
             <label htmlFor="email">Ingrese su mail</label>
             <input type="email" id="email" name="email" /> <br/>
             <label htmlFor="password">Ingrese su contraseña</label>
