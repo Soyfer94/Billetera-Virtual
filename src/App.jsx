@@ -1,12 +1,9 @@
 import './App.css'
-
-import Crypto from './componentes/Crypto';
 import Formulario from './componentes/Formulario';
 import FormularioControlado from './componentes/FormularioControlado';
 import Navbar from './componentes/barra';
 import Card from './componentes/card';
 import Portada from './componentes/portada';
-
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 import TableCoins from './componentes/APItable';
@@ -33,11 +30,6 @@ function App ()  {
         getData();
       }, []);
     
-
-
-
-
-
     return (
     <div className="App">
       
@@ -48,9 +40,7 @@ function App ()  {
       <FormularioControlado/>
 
       <h4 className='text-center'>Busca la Crypto</h4>
-      
-
-     <div className="container">
+      <div className="container">
       <div className="row">
         <input
           type="text"
