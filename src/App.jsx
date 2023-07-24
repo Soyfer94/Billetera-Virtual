@@ -1,4 +1,5 @@
 import './App.css'
+import CryptoTable from './componentes/API';
 
 import Crypto from './componentes/Crypto';
 
@@ -16,19 +17,13 @@ function App ()  {
       
       <Navbar/>
       <Portada/>
-<<<<<<< HEAD
       <Card/>
-      <Card/>
-      <Card/>
-      <Card/>
-      
-=======
->>>>>>> main
       <Formulario/>
-      <Card/>
       <FormularioControlado/>
       <h1 className='text-center'>React - Crypto</h1>
       <Crypto/>
+
+      <CryptoTable/>
       
     </div>
     );
