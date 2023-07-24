@@ -16,12 +16,16 @@ function App ()  {
       
       <Navbar/>
       <Portada/>
+<<<<<<< HEAD
       <Card/>
       <Card/>
       <Card/>
       <Card/>
       
+=======
+>>>>>>> main
       <Formulario/>
+      <Card/>
       <FormularioControlado/>
       <h1 className='text-center'>React - Crypto</h1>
       <Crypto/>

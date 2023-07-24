@@ -27,7 +27,7 @@ export default function FormularioControlado(){
 
     return(
         <>
-        <h2>Formulario cripto</h2>
+        <h2 className="Form_1">Formulario cripto</h2>
         <form onSubmit={handleSubmit} >
             <label htmlFor="nombre">Nombre</label>
             <input type="text" id="nombre"  onChange={ handleChange } />

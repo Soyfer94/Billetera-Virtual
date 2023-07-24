@@ -1,0 +1,37 @@
+.cartas{
+   background-color: #ffffff;
+    color: rgb(12, 11, 11);
+    text-align: center;
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 20px;
+    border-radius: 15px;
+    
+}
+
+
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0e0d0d;
+  }
+
+
+  .cartas {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+ 
+  .carduno,
+  .carddos,
+  .cardtres,
+  .cardcuatro {
+
+    flex-basis: 20%; 
+    padding: 10px;
+    border-radius: 15px; 
+    background-color: #cce5ffa8;
+    font-family:'Gill Sans'
+  }

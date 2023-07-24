@@ -4,7 +4,7 @@ import CrudTableRow from "./CrudTableRow";
 const CrudTable = ({data, setDataToEdit, deleteData}) => {
     return(
         <div>   
-            <h3>Tabla de datos</h3>
+            <h5>Tabla de datos</h5>
             <table>
                 <thead>
                     <th>Nombre</th>
