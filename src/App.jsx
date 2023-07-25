@@ -61,6 +61,10 @@ function App ()  {
       <Portada/>
       <Card/>
       <Formulario/>
+      
+      <div>
+        <h2 className="Form_1">Formulario cripto</h2>
+        </div>
       <FormularioControlado/>
       
       <h4 className='text-center'>Busca la Crypto</h4>
@@ -80,7 +84,7 @@ function App ()  {
       
 
       <div>
-            <h1>Lista de usuarios</h1>
+      <h4 className='text-center'>Lista de usuarios</h4>
             <UserForm addUser={addUser} />
             <UserList users={users} deleteUser={deleteUser} />
 

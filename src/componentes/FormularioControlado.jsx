@@ -33,11 +33,10 @@ export default function FormularioControlado(){
 
 
 
-    <div class="container">
+    <div class="container2">
         <>
-        <div>
-        <h2 className="Form_1">Formulario cripto</h2>
-        </div>
+        
+        <div className="Form22">
         <form onSubmit={handleSubmit} >
             <label htmlFor="nombre">Nombre</label>
             <input type="text" id="nombre"  onChange={ handleChange } />
@@ -72,11 +71,12 @@ export default function FormularioControlado(){
 
             <input type="submit" />
         </form>
+        </div>
         </>
+
         <div class="gif">
-        <iframe width="620" height="620" src="https://www.gifss.com/economia/bitcoin/images/bitcoin-03.gif" frameborder="0" allowfullscreen></iframe>
+        <iframe width="400" height="440" src="https://www.gifss.com/economia/bitcoin/images/bitcoin-03.gif" frameborder="0" allowfullscreen></iframe>
         </div>
     </div>    
     )
 }
-/* <img src="https://www.gifss.com/economia/bitcoin/images/bitcoin-03.gif" alt="Ejemplo" className="criptosimg" />     */
